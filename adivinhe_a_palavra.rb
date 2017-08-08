@@ -1,7 +1,7 @@
 novo_jogo = "s"
 
 while novo_jogo == "s"
-	palavras = %w{cachorro gato camelo formiga morcelo dromedario}
+	palavras = %w{cachorro gato camelo formiga morcego dromedario}
 	palavra_sorteada = palavras.sample
 	palavra_tamanho = palavra_sorteada.size
 
